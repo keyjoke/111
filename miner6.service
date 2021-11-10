@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Restart=always
 WorkingDirectory=/hive/miners/custom/downloads
-ExecStart=/hive/miners/custom/downloads/tonlib-cuda-cli -v 3 -C global.config.json -e 'pminer start kf_NSzfDJI1A3rOM0GQm7xsoUXHTgmdhN5-OrGD8uwL2JMvQ EQCe72tW1EGwGhkUI3Q4hZskOQ99Fg8jQKBAhavRAy8fjR3R 6 32'
+ExecStart=/hive/miners/custom/downloads/tonlib-cuda-cli -v 3 -C global.config.json -e 'pminer start kf8JfFUEJhhpRW80_jqD7zzQteH6EBHOzxiOhygRhBdt4z2N EQCe72tW1EGwGhkUI3Q4hZskOQ99Fg8jQKBAhavRAy8fjR3R 6 32'
 
 [Install]
 WantedBy=multi-user.target
