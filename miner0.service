@@ -6,7 +6,7 @@ After=network.target
 Restart=always
 RuntimeMaxSec=3900
 WorkingDirectory=/hive/miners/custom/downloads
-ExecStart=/hive/miners/custom/downloads/danila-miner https://pool.services.tonwhales.com EQCe72tW1EGwGhkUI3Q4hZskOQ99Fg8jQKBAhavRAy8fjR3R
+ExecStart=/hive/miners/custom/downloads/danila-miner run https://pool.services.tonwhales.com EQCe72tW1EGwGhkUI3Q4hZskOQ99Fg8jQKBAhavRAy8fjR3R
 
 [Install]
 WantedBy=multi-user.target
