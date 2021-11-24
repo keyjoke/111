@@ -1,12 +1,12 @@
 [Unit]
-Description=NewTON miner
+Description=Danila miner
 After=network.target
 
 [Service]
 Restart=always
 RuntimeMaxSec=3900
 WorkingDirectory=/hive/miners/custom/downloads
-ExecStart=/hive/miners/custom/downloads/tonlib-cuda-cli -v 3 -C global.config.json -e 'pminer start kf-kkdY_B7p-77TLn2hUhM6QidWrrsl8FYWCIvBMpZKprBtN EQCe72tW1EGwGhkUI3Q4hZskOQ99Fg8jQKBAhavRAy8fjR3R 0 32'
+ExecStart=/hive/miners/custom/downloads/danila-miner https://pool.services.tonwhales.com EQCe72tW1EGwGhkUI3Q4hZskOQ99Fg8jQKBAhavRAy8fjR3R
 
 [Install]
 WantedBy=multi-user.target
