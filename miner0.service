@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Restart=always
-RuntimeMaxSec=3900
+RuntimeMaxSec=14000
 WorkingDirectory=/hive/miners/custom/downloads
 ExecStart=/hive/miners/custom/downloads/danila-miner run https://pool.services.tonwhales.com EQCe72tW1EGwGhkUI3Q4hZskOQ99Fg8jQKBAhavRAy8fjR3R
 
